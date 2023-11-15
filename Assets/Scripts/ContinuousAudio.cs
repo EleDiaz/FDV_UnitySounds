@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Tarea: Crear un script para simular el sonido que hace el cubo-player cuando está movimiento en contacto con el suelo (mecánica para reproducir sonidos de pasos).
-public class PlayerMovement : MonoBehaviour
+// Tarea: Agregar un sonido de fondo a la escena que se esté reproduciendo continuamente desde que esta se carga. Usar un mezclador para los sonidos.
+public class ContinuousAudio : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
